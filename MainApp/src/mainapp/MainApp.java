@@ -13,19 +13,27 @@ import javax.swing.JFrame;
  *
  * @author braya
  */
-public class MainApp {
+public class MainApp  extends JFrame {
     double xp1=300;
     double yp1=300;
     double xp2=10;
     double yp2=300;
     double sin60=Math.sin(3.14/3.);
     int nivel_de_recursividad=2;
+
+    public MainApp() {
+        setSize(400, 400);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setLocationRelativeTo(null);
+        setVisible(true);
+    }
     
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+          new MainApp();
     }
 
     public void paint(Graphics g){
