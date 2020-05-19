@@ -1,3 +1,4 @@
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -5,11 +6,21 @@
  */
 package mainapp;
 
+import java.awt.Graphics;
+import javax.swing.JFrame;
+
 /**
  *
  * @author braya
  */
 public class MainApp {
+    double xp1=300;
+    double yp1=300;
+    double xp2=10;
+    double yp2=300;
+    double sin60=Math.sin(3.14/3.);
+    int nivel_de_recursividad=2;
+    
 
     /**
      * @param args the command line arguments
