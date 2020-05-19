@@ -15,10 +15,10 @@ public class MainApp {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
-        System.out.println("Hello Word");
-         System.out.println("Hello Word");
-          System.out.println("Hello Word");
+    }
+
+    public void paint(Graphics g){
+        paintRecursivo(g,nivel_de_recursividad,xp1,yp1,xp2,yp2);
     }
     
 }
